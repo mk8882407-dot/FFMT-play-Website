@@ -1,0 +1,19 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100vh;font-family:Arial,sans-serif;color:#fff;background:radial-gradient(circle at 50% 0%,rgba(255,107,0,.22),transparent 34%),linear-gradient(180deg,#090011,#0d0715 55%,#090011)}
+.page{max-width:1050px;margin:auto;padding:28px 20px}
+.hero{text-align:center;padding:70px 18px 50px}
+.badge{display:inline-block;padding:9px 16px;border:1px solid rgba(255,145,0,.45);border-radius:999px;background:rgba(255,107,0,.1);color:#ffb15a;font-size:13px;font-weight:800;letter-spacing:1.5px}
+h1{margin-top:24px;font-size:clamp(42px,9vw,82px);line-height:.98;letter-spacing:-3px}
+h1 span{color:#ff7a00;text-shadow:0 0 30px rgba(255,107,0,.35)}
+.subtitle{max-width:650px;margin:24px auto 30px;color:#b9b2c2;font-size:17px;line-height:1.65}
+.download{display:inline-block;padding:17px 28px;border-radius:14px;background:linear-gradient(135deg,#ff6b00,#ff9100);color:#fff;text-decoration:none;font-weight:900;font-size:17px;box-shadow:0 12px 35px rgba(255,107,0,.25)}
+.small{margin-top:14px;color:#77717f;font-size:12px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:10px 0 45px}
+.features>div{padding:25px 20px;border:1px solid #28202d;border-radius:18px;background:#151922d9;text-align:center}
+.features b{font-size:30px}.features h3{margin:12px 0 8px}.features p,.community p{color:#9992a1;line-height:1.5;font-size:14px}
+.community{text-align:center;padding:38px 20px;border:1px solid #28202d;border-radius:22px;background:#151922a6}
+.community h2{font-size:28px;margin-bottom:10px}.community p{margin-bottom:22px}
+.socials{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
+.socials a{min-width:120px;padding:12px 18px;border:1px solid #342b3a;border-radius:12px;color:#fff;text-decoration:none;background:#151922;font-weight:700}
+footer{padding:30px 0;text-align:center;color:#625b68;font-size:12px}
+@media(max-width:700px){.hero{padding-top:45px}.features{grid-template-columns:1fr}.download{width:100%;text-align:center}h1{letter-spacing:-2px}}
