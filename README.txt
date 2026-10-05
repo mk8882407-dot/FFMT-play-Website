@@ -1,12 +1,8 @@
-FFMT Play static website
+FFMT Play Website
+Files:
+- index.html
+- style.css
+- ffmt-poster.png
 
-Before publishing:
-1. Put the real APK in this folder as: ffmt-play.apk
-2. Replace the three # social links in index.html with your real Telegram, Instagram and YouTube links.
-3. Upload to GitHub.
-4. Render -> New + -> Static Site.
-5. Connect the repository.
-6. Publish Directory: .
-7. No build command is needed.
-
-This website is separate from the existing FFMT Play backend/server.
+Upload all three website files to the FFMT-Play-Website GitHub repository.
+The APK remains hosted separately in the GitHub Release v1.0.0.
